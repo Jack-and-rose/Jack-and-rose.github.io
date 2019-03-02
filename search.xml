@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[使用hexo创建博客过程]]></title>
+    <url>%2F2019%2F03%2F02%2F%E4%BD%BF%E7%94%A8hexo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[使用hexo搭建一个博客前期准备安装node、git、yarn（个人倾向） 博客搭建过程安装hexo-cli进入myblog目录下 cd myblog 安装hexo-cli yarn global add hexo-cli 建立博客文件夹 hexo init hexoblog ————————-分割线———————— 文件目录 .hexoblog +– node_modules +– scaffolds +– source +– themes +– .gitignore +– .npmignore +– _config.yml +– package.json +– yarn.lock 文件说明 scaffolds模版 文件夹。当您新建文章时，Hexo 会根据 scaffold 来建立文件。Hexo的模板是指在新建的markdown文件中默认填充的内容。例如，如果您修改scaffold/post.md中的Front-matter内容，那么每次新建一篇文章时都会包含这个修改。 source资源文件夹是存放用户资源的地方。除 _posts 文件夹之外，开头命名为 _ (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件会被拷贝过去。 themes主题 文件夹。Hexo 会根据主题来生成静态页面 _config.yml网站的配置文件，具体有哪些配置项，我们在另一篇文章展开详细的叙述。 ————————-分割线—————————- 继续我们的博客搭建过程^_^]]></content>
+      <categories>
+        <category>工具类</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F03%2F02%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <categories>
+        <category>HTMLstander</category>
+      </categories>
+      <tags>
+        <tag>jvascript</tag>
+        <tag>html</tag>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[CentOS7下Tomcat启动慢的原因及解决方案]]></title>
+    <url>%2F2017%2F12%2F02%2Ftest-tag%2F</url>
+    <content type="text"><![CDATA[hdhasdhjasdhjkasdceshidhasdhdneishdjias]]></content>
+      <categories>
+        <category>云服务器</category>
+      </categories>
+      <tags>
+        <tag>centOS</tag>
+        <tag>tomcat</tag>
+      </tags>
+  </entry>
+</search>
